@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>2016 경기고등학교 화동제</title>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<meta name="viewport" content="width=640, user-scalable=yes">
+	<style>
+	</style>
+	<script>
+		
+		var hei = screen.availHeight;
+		var wid = screen.availWidth;
+		$(function(){
+			if(wid>hei){
+			location.href="pc/index.html";
+			
+			}});
+		function plan(){
+			
+			day.src = "button_day_pressed.png"
+		
+		}
+	</script>
+	</head>
+	
+	<body align=center>
+			
+			<img id="logo" class="logo" style="position:relative;width:95%;" src="logo.jpg">
+			<br>
+			<div id="buttons" >
+				<table width="100%">
+				<tr>
+					<td><img width="100%" id="day" onclick="plan();" src="button_day.png"></td>
+					<td><a href="trans.html"><img width="100%" src="button_trans.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="plan.html"><img width="100%" src="button_plan.png"></a></td>
+					<td><a href="ca.html"><img width="100%" src="button_ca.png"></a></td>
+				</tr>
+				</table>
+			</div>
+			
+			
+		<div align=center style="position:relative;bottom:0;">
+		<img src=kyunggi.png width="40%"><br>
+		<i><font size=1>Copyright 2016. ndr0id studio 최지원 allright reserved.</font><i>
+		</div>
+
+	</body>
